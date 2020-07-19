@@ -1,6 +1,6 @@
 package Week_02;
 
-public class LowestCommonAncestorDemo {
+public class lowestCommonAncestorDemo {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null || root == q || root == p){
@@ -15,4 +15,13 @@ public class LowestCommonAncestorDemo {
     }
 
 }
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+
+
 

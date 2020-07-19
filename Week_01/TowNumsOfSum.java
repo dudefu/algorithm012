@@ -1,9 +1,6 @@
 package Week_01;
 
-/**
- * 
- * 二叉树的最近公共祖先
- */
+
 public class TowNumsOfSum {
 
     public static void main(String[] args) {
@@ -28,11 +25,4 @@ public class TowNumsOfSum {
         }
         return returnIndexs;
     }
-}
-
-class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode(int x) { val = x; }
 }
