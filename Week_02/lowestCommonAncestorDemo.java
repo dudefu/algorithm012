@@ -1,5 +1,8 @@
 package Week_02;
 
+/**
+ * 二叉树的最近公共祖先
+ */
 public class lowestCommonAncestorDemo {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
