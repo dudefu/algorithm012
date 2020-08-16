@@ -1,13 +1,9 @@
-package Week_04;
+
 
 /**
  * 柠檬水找零
  */
-public class Ningmeng {
-
-    public static void main(String[] args) {
-        
-    }
+class Solution {
     public boolean lemonadeChange(int[] bills) {
         int money[]={0,0};
         for(int i=0;i<bills.length;i++){

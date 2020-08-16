@@ -1,11 +1,8 @@
-package Week_04 ;
+
 /**
  * 买卖股票的最佳时机 II
  */
-public class Gupiao {
-    public static void main(String[] args) {
-        
-    }
+class Solution {
     public int maxProfit(int[] prices) {
        int max=0;
         for(int i=1,len=prices.length;i<len;i++){
