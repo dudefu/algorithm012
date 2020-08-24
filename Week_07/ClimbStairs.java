@@ -1,4 +1,4 @@
-package Week_07
+package Week_07 ;
 
 public class ClimbStairs {
     public int climbStairs(int n) {
